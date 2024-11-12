@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- phosphor icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Fira+Code:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>MeFolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="flex">
+          <h1 class="logo">&lt;Gabriel Velasquez /&gt;</h1>
+
+          <ul class="flex">
+            <li>início</li>
+            <li>sobre mim</li>
+            <li>projetos</li>
+            <li>serviços</li>
+            <li>habilidades</li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="s-primary flex">
+          <div>
+            <p>Olá, eu sou</p>
+            <h1>Gabriel Velasquez</h1>
+            <p>Desenvolvedor Front-end.</p>
+            <button type="button" class="download-cv-btn">
+              Baixar currículo
+            </button>
+          </div>
+
+          <div class="ilustration">
+            <img src="assets/img.svg.svg" alt="developer activity image" />
+          </div>
+        </section>
+
+        <section class="s-about flex">
+          <h1>Sobre mim</h1>
+          <p>
+            Sou um desenvolvedor front-end e estudante, focado em criar
+            experiências visuais impactantes e funcionais. Meu objetivo é
+            otimizar a interface dos sites, priorizando a experiência do usuário
+            e a performance. Busco sempre melhorar meus conhecimentos em novas
+            tecnologias e ferramentas, como frameworks modernos, CSS avançado e
+            design responsivo. Estou comprometido em otimizar o código para
+            garantir sites rápidos, bem organizados e de fácil manutenção,
+            sempre aprendendo e evoluindo com cada projeto.
+          </p>
+
+          <ul class="flex">
+            <li>
+              <i class="ph ph-smiley"></i>
+              <span class="title">Nome</span>
+              <span class="subtitle">Gabriel Velasquez</span>
+            </li>
+            <li>
+              <i class="ph ph-envelope-simple"></i>
+              <span class="title">E-mail</span>
+              <span class="subtitle">velasquezgabriel108@gmail.com</span>
+            </li>
+            <li>
+              <i class="ph ph-instagram-logo"></i>
+              <span class="title">Instagram</span>
+              <span class="subtitle">@_velasqz</span>
+            </li>
+            <li>
+              <i class="ph ph-phone"></i>
+              <span class="title">Telefone</span>
+              <span class="subtitle">(51) 98030-8811</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="s-projects">
+          <h1>Projetos</h1>
+
+          <div class="projects-gallery">
+            <div class="project-card">
+              <div class="img-container flex">
+                <p>Imagem projeto</p>
+              </div>
+
+              <div class="content">
+                <h1>Nome do projeto</h1>
+                <p>Tecnologias usadas no projeto</p>
+              </div>
+
+              <div class="btn-wrapper flex">
+                <button class="primary-btn" type="button">
+                  Acessar o projeto
+                </button>
+                <button class="secondary-btn" type="button">
+                  Acessar o repositório
+                </button>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="img-container flex">
+                <p>Imagem projeto</p>
+              </div>
+
+              <div class="content">
+                <h1>Nome do projeto</h1>
+                <p>Tecnologias usadas no projeto</p>
+              </div>
+
+              <div class="btn-wrapper flex">
+                <button class="primary-btn" type="button">
+                  Acessar o projeto
+                </button>
+                <button class="secondary-btn" type="button">
+                  Acessar o repositório
+                </button>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="img-container flex">
+                <p>Imagem projeto</p>
+              </div>
+
+              <div class="content">
+                <h1>Nome do projeto</h1>
+                <p>Tecnologias usadas no projeto</p>
+              </div>
+
+              <div class="btn-wrapper flex">
+                <button class="primary-btn" type="button">
+                  Acessar o projeto
+                </button>
+                <button class="secondary-btn" type="button">
+                  Acessar o repositório
+                </button>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="img-container flex">
+                <p>Imagem projeto</p>
+              </div>
+
+              <div class="content">
+                <h1>Nome do projeto</h1>
+                <p>Tecnologias usadas no projeto</p>
+              </div>
+
+              <div class="btn-wrapper flex">
+                <button class="primary-btn" type="button">
+                  Acessar o projeto
+                </button>
+                <button class="secondary-btn" type="button">
+                  Acessar o repositório
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="s-services">
+          <h1>Serviços</h1>
+
+          <div class="services-gallery flex">
+            <div class="service flex">
+              <i class="ph ph-code"></i>
+              <p>Criação de sites</p>
+            </div>
+            <div class="service flex">
+              <i class="ph ph-device-mobile-camera"></i>
+              <p>Criação de aplicativos</p>
+            </div>
+            <div class="service flex">
+              <i class="ph ph-devices"></i>
+              <p>Sites responsivos</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="s-abilities">
+          <h1>Habilidades</h1>
+
+          <div class="abilities-gallery flex">
+            <div class="ability">
+              <i class="ph ph-file-html"></i>
+            </div>
+
+            <div class="ability">
+              <i class="ph ph-file-css"></i>
+            </div>
+
+            <div class="ability">
+              <i class="ph ph-file-js"></i>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer class="flex">
+      <p>@ 2024 - Gabriel Velasquezs</p>
+      <p>Powered by <i class="ph ph-binary"></i></p>
+    </footer>
+  </body>
+</html>
