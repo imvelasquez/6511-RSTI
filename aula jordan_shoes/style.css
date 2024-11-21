@@ -32,11 +32,11 @@ header h1 {
 .s-description {
   height: 35rem;
   /*   
-    background: url("assets/bg-cover.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
-    */
+  background: url("assets/bg-cover.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  */
   background: url("assets/bg-cover.png") center/cover no-repeat;
 
   display: flex;
@@ -92,6 +92,7 @@ header h1 {
 
 .products-gallery {
   display: grid;
+
   justify-items: center;
   gap: 4rem;
 }
@@ -123,4 +124,23 @@ header h1 {
   font-size: 2rem;
   font-weight: 500;
   font-family: "Space Grotesk", sans-serif;
+}
+
+/* 
+320px — 480px: dispositivos móveis
+481px — 768px: iPads, tablets
+769px — 1024px: telas pequenas, laptops
+1025px — 1200px: desktops, telas grandes
+1201px e acima —  telas muito grandes, TVs
+*/
+@media (min-width: 730px) {
+  .products-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1030px) {
+  .products-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

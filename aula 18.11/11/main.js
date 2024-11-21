@@ -7,6 +7,9 @@ function handleCheckout() {
   });
 }
 
+// Call the function to activate the checkout button event listener
+handleCheckout();
+
 logoImg.addEventListener("click", () => {
   window.location.href = "index.html";
 });
