@@ -1,0 +1,42 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfcfb;
+  color: #333;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.menu-btn {
+  width: 25px;
+  height: 12px;
+  top: 91px;
+  left: 18px;
+  border: 2.5px;
+}
+
+.logo {
+  width: 159px;
+  height: 49px;
+  top: 73;
+  left: 117px;
+}
