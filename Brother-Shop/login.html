@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Login e Cadastro</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Página de Login -->
+      <div id="login-container" class="login-container">
+        <h1>Login</h1>
+        <form id="login-form">
+          <div class="input-group">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Digite seu e-mail"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="password">Senha</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Digite sua senha"
+              required
+            />
+          </div>
+          <button type="submit" class="btn">Entrar</button>
+          <p class="signup">
+            Não tem uma conta? <a href="#" id="show-register">Cadastre-se</a>
+          </p>
+        </form>
+      </div>
+
+      <!-- Página de Cadastro -->
+      <div id="register-container" class="register-container hidden">
+        <h1>Cadastro</h1>
+        <form id="register-form">
+          <div class="input-group">
+            <label for="reg-email">E-mail</label>
+            <input
+              type="email"
+              id="reg-email"
+              placeholder="Digite seu e-mail"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="reg-password">Senha</label>
+            <input
+              type="password"
+              id="reg-password"
+              placeholder="Digite sua senha"
+              required
+            />
+          </div>
+          <button type="submit" class="btn">Cadastrar</button>
+          <p class="login">
+            Já tem uma conta? <a href="#" id="show-login">Login</a>
+          </p>
+        </form>
+      </div>
+
+      <!-- Página Principal (após o login) -->
+      <div id="home-container" class="home-container hidden">
+        <header>
+          <div class="search-bar">
+            <input type="text" placeholder="Pesquise..." />
+            <div class="user-avatar">
+              <img
+                src="https://via.placeholder.com/40"
+                alt="Avatar do Usuário"
+                id="user-avatar"
+              />
+            </div>
+          </div>
+        </header>
+        <main>
+          <h1>Bem-vindo!</h1>
+          <p>Você está logado com sucesso.</p>
+        </main>
+      </div>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>

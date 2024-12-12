@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roupas Masculinas</title>
+    <link rel="stylesheet" href="camimasc.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <!-- Logo -->
+        <div class="logo">
+          <a href="index.html"
+            ><img src="assets/logo.svg" alt="Logo da Loja Cristã"
+          /></a>
+        </div>
+
+        <!-- Menu Hambúrguer -->
+        <div class="hamburger" id="hamburger-menu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+
+        <!-- Barra de Pesquisa -->
+        <div class="search-bar">
+          <input type="text" placeholder="Pesquise..." />
+          <div id="user-avatar-container" class="user-avatar-container">
+            <!-- A foto e o e-mail do usuário serão adicionados aqui via JavaScript -->
+          </div>
+        </div>
+        </div>
+        <div id="menu-hamburguer" class="menu">
+          <div class="menu-container">
+            <ul>
+              <li><a href="#">Meus Pedidos</a></li>
+              <li><a href="#">Lançamentos</a></li>
+              <li><a href="#">Ofertas</a></li>
+              <li><a href="camimasc.html">Masculino</a></li>
+              <li><a href="camifem.html">Feminino</a></li>
+              <li><a href="#">Sobre Nós</a></li>
+              <li><a href="login.html" class="login-btn">Entrar</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Botão do Menu -->
+        <div class="hamburguer-btn" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+
+        <script src="main.js"></script>
+      </header>
+
+      <main>
+        <h1>Roupas Masculinas Cristãs</h1>
+        <section class="products">
+          <div class="product-item">
+            <img
+              src="assets/cardume.png"
+              alt="Camiseta cardume"
+            />
+            <p>Camiseta cardume</p>
+            <button>Comprar</button>
+          </div>
+          <div class="product-item">
+            <img
+              src="assets/filhos do trovão.png"
+              alt="Camiseta Filhos do trovão"
+            />
+            <p>Camiseta Filhos do trovão</p>
+            <button>Comprar</button>
+          </div>
+          <div class="product-item">
+            <img src="assets/pães e peixes.png" alt="Camiseta Pães e Peixes" />
+            <p>Camiseta Pães e Peixes</p>
+            <button>Comprar</button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
