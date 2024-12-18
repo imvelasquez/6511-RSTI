@@ -13,9 +13,10 @@ body {
 }
 
 .container {
-  max-width: 480px;
+  max-width: 1200px;
+  padding: 0 1.5rem;
   margin: 0 auto;
-  padding: 20px;
+  border-color: blue;
 }
 
 /* Header */
@@ -34,9 +35,8 @@ body {
   border: 2.5px;
 }
 
-.logo {
-  width: 159px;
-  height: 49px;
-  top: 73;
-  left: 117px;
+img {
+  width: 100%;
+  position: relative;
+  justify-content: center;
 }
